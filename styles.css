@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d9d9cb;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px; 
+    margin: auto;
+    padding: 20px;
+    gap: 20px;
+}
+
+.weather-section {
+    flex: 3; 
+}
+
+.weather-card {
+    background-color:rgb(211, 226, 245);
+    padding: 30px; 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    
+}
+
+.weather-info h1 {
+    font-size: 60px;
+    margin: 10px 0;
+}
+
+.weather-info p {
+    font-size: 20px;
+    margin: 10px 0; 
+    color: #555;
+}
+
+.city-form {
+    background-color: rgb(211, 226, 245);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px; 
+}
+
+
+.city-form input[type="text"] {
+    width: 90%;
+    padding: 15px; 
+    margin-bottom: 25px; 
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.city-form input[type="submit"] {
+    background-color: #25407f;
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 15px 20px;
+    border-radius: 5px;
+    font-size: 18px; 
+    cursor: pointer;
+   
+}
+
+.city-form input[type="submit"]:hover {
+    background-color: #547db6;
+}
